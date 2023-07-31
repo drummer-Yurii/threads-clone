@@ -93,8 +93,8 @@ let isLoading = ref(false)
 
 const adjustTextareaHeight = () => {
     var textarea = document.getElementById("textarea");
-    textarea.style.height = 'auto'
-    textarea.style.height = textarea.scrollHeight + 'px'
+    textarea.style.height = "auto"
+    textarea.style.height = textarea.scrollHeight + "px"
 }
 
 let file = ref(null)
